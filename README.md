@@ -1,7 +1,9 @@
-# esp8285-bin2elf
-Reverse engineering ESP8285 firmware
+# ESP8285 Bin2ELF
 
-This is an ongoing project but the code works for ESP8285 firmware that was generated with `elf2bin.py`.
+Reverse engineering ESP8285 firmware with pure python3.
+
+> [!NOTE]
+> This is an ongoing project but the code works for ESP8285 firmware that was generated with `elf2bin.py`.
 
 # Usage
 ```sh
