@@ -54,3 +54,13 @@ Assemble sections
 Assemble ELF structure
 Writing ELF to: app.elf
 ```
+
+# Credits/Resources
+
+Standing on the shoulders of giants. Some resources in no particular order:
+- https://github.com/esp8266/Arduino/blob/master/tools/elf2bin.py
+- https://github.com/jsandin/esp-bin2elf
+- https://www.youtube.com/watch?v=w4_3vwN_2dI
+- https://github.com/yath/ghidra-xtensa
+- https://richard.burtons.org/2015/05/17/esp8266-boot-process/
+- https://olof-astrand.medium.com/reverse-engineering-of-esp32-flash-dumps-with-ghidra-or-ida-pro-8c7c58871e68
