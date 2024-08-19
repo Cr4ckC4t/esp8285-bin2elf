@@ -3,7 +3,7 @@
 Reverse engineering ESP8285 firmware with pure python3.
 
 > [!NOTE]
-> This is an ongoing project but the code works for ESP8285 firmware that was generated with `elf2bin.py`.
+> This works for ESP8285 (and possibly other ESP) firmware that was generated with `elf2bin.py` (for example via Arduino IDE). However, you may have to adjust some things in the `bin2elf.py`. The function `parse_mem` reverses the logic of `elf2bin.py` and since that slightly changed over time you may find different sections and/or different orders of sections. If you can guess the version the code was compiled with you can check the source code of the `elf2bin.py` in the Arduino repository and then adapt this tool to your needs.
 
 # Usage
 ```sh
